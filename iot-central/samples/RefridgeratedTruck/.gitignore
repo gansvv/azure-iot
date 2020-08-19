@@ -70,3 +70,4 @@ yarn-debug.log*
 
 # npm modules
 node_modules
+package-lock.json

@@ -1,0 +1,77 @@
+11:20 AM 8/19/2020
+
+PS C:\users\gaviswan\OneDrive - Microsoft\code\azure-iot\iot-central\samples\RefridgeratedTruck> node .\app.js
+Error registering device: Error: Connection refused: Server unavailable
+
+<Updated scope id, device id, primary key for connection to iot-central device>
+
+PS C:\users\gaviswan\OneDrive - Microsoft\code\azure-iot\iot-central\samples\RefridgeratedTruck> node .\app.js
+Registration succeeded
+
+Assigned hub=iotc-8059f859-d282-4199-a8e8-35d75f663e34.azure-devices.net
+DeviceId=RefrigeratedTruck1
+Device successfully connected to Azure IoT Central
+
+Sent device properties: {"TruckID":"Truck number 1"}; status: success
+
+Message: {"ContentsTemperature":"-0.50","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-1.83","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-1.96","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-0.02","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-0.94","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-1.65","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"0.02","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"0.87","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-1.95","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-4.20","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-5.74","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-7.15","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-7.31","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-9.39","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-10.89","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-10.40","TruckState":"ready","CoolingSystemState":"off","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-9.12","TruckState":"ready","CoolingSystemState":"off","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-8.90","TruckState":"ready","CoolingSystemState":"off","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-8.86","TruckState":"ready","CoolingSystemState":"off","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"-10.42","TruckState":"ready","CoolingSystemState":"off","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+...
