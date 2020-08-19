@@ -75,3 +75,28 @@ Message: {"ContentsTemperature":"-10.42","TruckState":"ready","CoolingSystemStat
 Telemetry sent
 
 ...
+
+
+Message: {"ContentsTemperature":"-3.50","TruckState":"ready","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.130137,"lat":47.644702}}
+Telemetry sent
+
+Route found. Number of points = 674
+
+Message: {"ContentsTemperature":"-6.13","TruckState":"enroute","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.13278663098076,"lat":47.64604}}{"Event":"New customer: 
+1"}
+Telemetry sent
+
+...
+
+
+Message: {"ContentsTemperature":"-1.49","TruckState":"returning","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.28509885319212,"lat":47.64475326373252}}
+Telemetry sent
+
+Message: {"ContentsTemperature":"0.25","TruckState":"returning","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.27280654047667,"lat":47.6429189509407}}{"Event":"Already returning"}
+Telemetry sent
+
+Message: {"ContentsTemperature":"1.95","TruckState":"returning","CoolingSystemState":"on","ContentsState":"full","Location":{"lon":-122.26051463874109,"lat":47.64095840596016}}{"Event":"Already returning"}
+Telemetry sent
+
+...
+
