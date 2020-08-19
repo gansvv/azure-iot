@@ -1,4 +1,3 @@
-// Refrigerated Truck sample app
 "use strict";
 const chalk = require('chalk');
 
@@ -12,9 +11,9 @@ var ProvisioningDeviceClient = require('azure-iot-provisioning-device').Provisio
 var provisioningHost = 'global.azure-devices-provisioning.net';
 
 // Enter your Azure IoT keys
-var idScope = '0ne0015AE34';
-var registrationId = 'RefrigeratedTruck1';
-var symmetricKey = '7soVMZutYrxzhBQrNcyEA4tB3uj2nWXy7dW0HFgifk0=';
+var idScope = '<your scope ID>';
+var registrationId = '<your device ID>';
+var symmetricKey = '<your primary key>';
 
 var provisioningSecurityClient = new SymmetricKeySecurityClient(registrationId, symmetricKey);
 var provisioningClient = ProvisioningDeviceClient.create(provisioningHost, idScope, new ProvisioningTransport(), provisioningSecurityClient);
@@ -25,7 +24,7 @@ var truckIdentification = "Truck number 1";
 var rest = require("azure-maps-rest");
 
 // Enter your Azure Maps key
-var subscriptionKeyCredential = new rest.SubscriptionKeyCredential("SNzpfCEh-_MN-nMcsdxL0fJwI1nS-Q1cK_3tGMegJaM");
+var subscriptionKeyCredential = new rest.SubscriptionKeyCredential("<your Azure Maps key>");
 
 // Azure maps connection 
 var pipeline = rest.MapsURL.newPipeline(subscriptionKeyCredential);
